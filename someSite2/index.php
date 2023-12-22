@@ -78,6 +78,13 @@ include_once('../check_accesstoken.php');
 		window.location.replace("/my/"); 
 	}
 	
+	//callback doTestLogedin()
+	function onComplete(logedin){ // When the check logged out completes, do this
+		console.log("loggedin: "+ logedin);
+		if (!logedin) window.location.replace("/"); // clear history
+		Xlogedin = logedin; //global	
+	}
+	
 	// Document fully loaded
 	function dokumentLoadDone(event) {
 		<?php
