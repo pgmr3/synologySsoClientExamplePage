@@ -14,7 +14,7 @@
 	<meta name="description" content="">
 	<meta name="author" content="https://github.com/pgmr3">
 	<meta name="copyright" content="https://www.gnu.org/licenses/gpl-3.0.html" />
-	<script src="https://dsm.pgmr2.com/webman/sso/synoSSO-1.0.0.js"></script> 
+	<script src="https://sso-yourdomain.com/webman/sso/synoSSO-1.0.0.js"></script> 
 </head>
 
 <body>
@@ -39,11 +39,11 @@
 	
 	//synology SSO server init
 	SYNOSSO.init({
-		oauthserver_url: 'https://dsm.pgmr2.com', //synology server with sso and dsm
-		app_id: 'eb3df56d6f3f11914eb6514c978346f1', // App ID 
-		redirect_uri: 'https://sso.pgmr2.com', //redirect URI not realy used
-		// ldap_baseDN: 'dc=sso-domain,dc=com', //necessary if more than one domain in the ldap
-        // domain_name: 'sso-domain.com',  //necessary if more than one domain in the ldap
+		oauthserver_url: 'https://sso-yourdomain.com', //synology server with sso and dsm, same as config.php
+		app_id: 'eb3df56d6f3f11914eb6514c978346fX', // App ID , same as config.php
+		redirect_uri: 'https://yourpagedomain.com', //redirect URI not realy used, same as config.php
+		// ldap_baseDN: 'dc=sso-domain,dc=com', //necessary if more than one domain in the ldap, same as config.php
+        // domain_name: 'sso-domain.com',  //necessary if more than one domain in the ldap, same as config.php
 		callback: authCallback
 	})
 			

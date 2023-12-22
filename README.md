@@ -13,4 +13,4 @@ PHP (tested th php 8.0)
 client site: browser with javascipt (tested with google-chome Version 120.0.6099.130; mMicrosoft Edge  Version 120.0.2210.91 )
 
 #### Suggested:
-- synology NAS (tested with DSM 7.0 with installed sso server package) and webserver (tested with gninx)
+- synology NAS (tested with DSM 7.0 with installed sso server package) and webserver (tested with Nginx)
