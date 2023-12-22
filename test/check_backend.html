@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<body>
+<p id="demo">no connection to the backend</p>
+
+<script>
+
+getURL("https://sso-yourdomain.com/check_backend.php");
+
+async function getURL(file) {
+	console.log("Start");
+	console.log(file);
+	
+	// still logged in? inquire at the back end - Function to do an Ajax call
+	const doTest = async () => {
+	  const response = await fetch("../check_backend.php"); // Generate the Response object
+	  if (response.ok) {
+		return response.json(); // Get JSON value from the response body
+	  }
+	  throw new Error("*** PHP file check_backend.php not found or response error");
+	};
+	
+	// Call the function and output value or error message to console
+	doTest().then((data) =>{console.log(data);
+		antwort = JSON.stringify(data); 
+		console.log(antwort);
+		document.getElementById("demo").innerHTML = antwort; 
+	})
+	.catch(console.log);
+}
+
+</script>
+
+</body>
+</html>

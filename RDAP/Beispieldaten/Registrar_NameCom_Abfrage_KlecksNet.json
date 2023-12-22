@@ -1,0 +1,75 @@
+{
+	"rdapConformance":["rdap_level_0"],
+	"ldhName":"PGMR2.com",
+	"objectClassName":"domain",
+	"secureDNS":{"delegationSigned":"false"},
+	"handle":"1521651076_DOMAIN_COM-VRSN",
+	"entities":[
+		{"objectClassName":"entity",
+			"handle":"",
+			"vcardArray":[
+				"vcard",[
+					["version",[],"text","4.0"],
+					["org",{"type":"work"},"text","Domain Protection Services, Inc."],
+					["adr",[],"text",["","PO Box 1769","","Denver","CO","80201","US"]],
+					["tel",{"type":["voice"]},"uri","tel:+1.7208009072"],
+					["email",[],"text","https:\/\/www.name.com\/contact-domain-whois\/pgmr2.com"]
+				]
+			],
+			"roles":["administrative"]
+		},
+		{"objectClassName":"entity",
+			"handle":"",
+			"vcardArray":[
+				"vcard",[
+					["version",[],"text","4.0"],
+					["org",{"type":"work"},"text","Domain Protection Services, Inc."],
+					["adr",[],"text",["","PO Box 1769","","Denver","CO","80201","US"]],
+					["tel",{"type":["voice"]},"uri","tel:+1.7208009072"],
+					["email",[],"text","https:\/\/www.name.com\/contact-domain-whois\/pgmr2.com"]
+				]
+			],
+			"roles":["registrant"]},
+		{"objectClassName":"entity",
+			"handle":"",
+			"vcardArray":[
+				"vcard",[
+					["version",[],"text","4.0"],
+					["org",{"type":"work"},"text","Domain Protection Services, Inc."],
+					["adr",[],"text",["","PO Box 1769","","Denver","CO","80201","US"]],
+					["tel",{"type":["voice"]},"uri","tel:+1.7208009072"],
+					["email",[],"text","https:\/\/www.name.com\/contact-domain-whois\/pgmr2.com"]
+				]
+			],
+			"roles":["billing"]
+		},
+		{"objectClassName":"entity",
+			"handle":"",
+			"vcardArray":[
+				"vcard",[
+					["version",[],"text","4.0"],
+					["org",{"type":"work"},"text","Domain Protection Services, Inc."],
+					["adr",[],"text",["","PO Box 1769","","Denver","CO","80201","US"]],
+					["tel",{"type":["voice"]},"uri","tel:+1.7208009072"],
+					["email",[],"text","https:\/\/www.name.com\/contact-domain-whois\/pgmr2.com"]
+				]
+			],
+			"roles":["technical"]
+		}
+	],
+	"events":[
+		{"eventAction":"expiration","eventDate":"2024-09-27 09:02:10"},
+		{"eventAction":"registration","eventDate":"2008-09-27 09:02:10"},
+		{"eventAction":"last changed","eventDate":"2023-09-05 16:34:03"}
+	],
+	"nameservers":[
+		{"objectClassName":"nameserver","ldhName":"ns1.he.net","unicodeName":"ns1.he.net","status":["associated"]},
+		{"objectClassName":"nameserver","ldhName":"ns2.he.net","unicodeName":"ns2.he.net","status":["associated"]},
+		{"objectClassName":"nameserver","ldhName":"ns3.he.net","unicodeName":"ns3.he.net","status":["associated"]},
+		{"objectClassName":"nameserver","ldhName":"ns4.he.net","unicodeName":"ns4.he.net","status":["associated"]},
+		{"objectClassName":"nameserver","ldhName":"ns5.he.net","unicodeName":"ns5.he.net","status":["associated"]}
+	],
+	"status":["transfer prohibited"],
+	"publicIds":[{"type":"IANA Registrar ID","identifier":625}],
+	"port43":"whois.name.com"
+}

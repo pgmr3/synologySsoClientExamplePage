@@ -1,0 +1,46 @@
+in browser
+==========
+https://sso-yourdomain.com/webman/sso/SSOAccessToken.cgi?action=exchange&access_token=
+
+h38ada8a1p99aX66iR9d1b6x657e11e05Q7292c7
+6de49f5cccd0Adff4xe8FV9R55y82c09e82Y7a99
+b4emfb321m831d0f6b0107ybfS4xwd949cwu4abf
+77077704P10Kd756dh76e4aza8Key2b69df5e9e8
+
+https://dsm.pgmr2.com/webman/sso/SSOAccessToken.cgi?action=exchange&access_token=h38ada8a1p99aX66iR9d1b6x657e11e05Q7292c7
+
+{
+   "data" : {
+      "user_id" : 1000001,
+      "user_name" : "User1@sso-yourdomain.com"
+   },
+   "success" : true
+}
+
+or
+
+{
+   "error" : "invalid_token",
+   "success" : false
+}
+
+curl
+====
+curl -v 'https://sso-yourdomain.com/webman/sso/SSOAccessToken.cgi?action=exchange&access_token=7b6b28rb10150AEabe4c580y0b50108cMc7c6f3c'
+
+or
+
+curl -v -X GET 'https://yourSeiteDomain.com/check_backend.php?accesstoken=7b6b28rb10150AEabe4c580y0b50108cMc7c6f3c'
+or
+curl -v https://yourSeiteDomain.com/check_backend.php?accesstoken=7b6b28rb10150AEabe4c580y0b50108cMc7c6f3c
+{
+   "data" : {
+      "user_id" : 1000005,
+      "user_name" : "test@sso-yourdomain.com"
+   },
+   "success" : true
+}
+
+https://sso-yourdomain.com/webapi/entry.cgi?api=SYNO.API.Info&version=1&method=query
+
+
